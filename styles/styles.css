@@ -1,17 +1,47 @@
-body {
-  font-size: 36px;
-  padding: 1rem;
+* {
+  box-sizing: border-box;
 }
 
-/* Напиши код під цим рядком */
-.up {
+body {
+  background-color: #f9f9fd;
 }
-.through {
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.down {
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
-.no {
-  text-decoration: underline dotted orange;
+
+.thumb {
+  position: relative;
+  margin: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.combi {
+
+.thumb > .label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 8px 16px;
+  border-bottom-left-radius: 4px;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  background-color: #2196f3;
+  color: #fff;
 }
+
+
+
+Resources
