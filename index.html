@@ -2,22 +2,154 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Simply Chocolate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
-    <form>
-      <label>
-        Username
-        <input type="text" name="username" autofocus />
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+    <header>
+      <div class="container header-conteiner">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo"
+            ><span class="header-logo-begin">Simply</span>Chokolate
+            <svg class="header-logo-img" width="21" height="21">
+              <use href="/styles/img/icons.svg#icon-chocolate"></use>
+            </svg>
+          </a>
+          <ul class="site-nav-header header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-nav-link link-current"
+                >Home</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./index.html/how-its-made.html" class="header-nav-link"
+                >How it’s made?</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./index.html/our-products.html" class="header-nav-link"
+                >Our products</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./index.html/top-sellers.html" class="header-nav-link"
+                >Top sellers</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./index.html/reviews.html" class="header-nav-link"
+                >Chocolate is loved</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header-cont-pre">
+          <ul class="header-soc-list header-list">
+            <li class="header-soc-title">
+              <a href="" class="header-soc-link header-link">
+                <svg class="icon-social-header" width="24" height="24">
+                  <use href="/styles/img/header/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-soc-title">
+              <a href="" class="header-soc-link header-link"
+                ><svg class="icon-social-header" width="24" height="24">
+                  <use href="/styles/img/header/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="header-burger js-open-modal"
+          data-modal="1"
+        >
+          <svg class="hero-tablet-burger" width="28" height="28">
+            <use href="/styles/img/header/icons.svg#hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- <div class="header-menu is-hidden" data-modal="1">
+        <div class="container-mob-header">
+          <div>
+            <button type="button" class="header-mob-close js-modal-close">
+              <svg width="14" height="14">
+                <use href="./img/header/icons.svg#close"></use>
+              </svg>
+            </button>
+            <ul class="header-mob-nav header-mob-list">
+              <li class="header-mob-item">
+                <a href="./index.html" class="header-mob-link link-current"
+                  >Home</a
+                >
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/how-its-made.html" class="header-mob-link"
+                  >How it’s made?</a
+                >
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/our-products.html" class="header-mob-link"
+                  >Our products</a
+                >
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/top-sellers.html" class="header-mob-link"
+                  >Top sellers</a
+                >
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/reviews.html" class="header-mob-link"
+                  >Chocolate is loved</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header-cont">
+            <ul class="header-soc-list header-mob-list">
+              <li class="header-soc-title">
+                <a href="" class="header-soc-link header-link">
+                  <svg class="icon-social-header" width="24" height="24">
+                    <use href="/img/header/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-soc-title">
+                <a href="" class="header-soc-link header-link"
+                  ><svg class="icon-social-header" width="24" height="24">
+                    <use href="/img/header/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+    </header>
+    <section class="hero">
+      <div class="container"></div>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="./swiper.js"></script>
   </body>
 </html>
