@@ -193,4 +193,16 @@
 // const doubleDigitHours = String(hours).padStart(2, 0);
 // const doubleDigitMinutes = String(minutes).padStart(2, 0);
 // console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
-// ```
+//
+
+function slugify(title) {
+  // Change code below this line
+
+  title = title.toLowerCase().replaceAll(" ", "-");
+  //   return slug;
+  console.log(title);
+
+  // Change code above this line
+}
+
+slugify("How to become a JUNIOR developer in TWO WEEKS");
