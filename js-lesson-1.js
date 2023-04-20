@@ -313,3 +313,33 @@
 //   }
 // }
 // console.log(number);
+
+// task 31_2
+// function findNumber(start, end, divisor) {
+//   for (let i = start; i < end; i += 1) {
+//     if (i % divisor === 0) {
+//       console.log(i);
+//       return i;
+//     }
+//   }
+// }
+// findNumber(16, 35, 7);
+
+// task 32_2
+// function includes(array, value) {
+//   for (let i = 0; i <= array.length; i += 1) {
+//     if (array[i] === value) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+// console.log(includes([1, 2, 3, 4, 5], 3));
+// console.log(includes([1, 2, 3, 4, 5], 17));
+// console.log(
+//   includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter")
+// );
+// console.log(
+//   includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus")
+// );
+// console.log(includes(["apple", "plum", "pear", "orange"], "plum"));
